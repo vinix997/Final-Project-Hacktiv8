@@ -1,11 +1,14 @@
 ﻿# Final-Project-Hacktiv8
 
-FINAL PROJECT DOCUMENTATION
-URL: localhost:8080
+FINAL PROJECT DOCUMENTATION <br />
 
 git clone https://github.com/vinix997/Final-Project-Hacktiv8.git<br />
 cd final-project<br />
 go run main.go<br />
+
+URL: localhost:8080 <br />
+All endpoint requires auth bearer token except register and login <br />
+to generate token, please do login or register and login first. <br />
 
 USER API: <br />
 POST: <br />
