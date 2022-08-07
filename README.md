@@ -12,12 +12,14 @@ POST:
 
 url: /users/register
 [request body]
+```json
 {
     "Username": "brokins",
     "Email": "brokin@gmail.com",
     "Password": "brokin",
     "Age": 22
 }
+```
 
 POST:
 url: /users/login
