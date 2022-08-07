@@ -3,14 +3,14 @@
 FINAL PROJECT DOCUMENTATION
 URL: localhost:8080
 
-git clone https://github.com/vinix997/Final-Project-Hacktiv8.git
-cd final-project
-go run main.go
+git clone https://github.com/vinix997/Final-Project-Hacktiv8.git<br />
+cd final-project<br />
+go run main.go<br />
 
-USER API:
-POST:
+USER API: <br />
+POST: <br />
 
-url: /users/register
+url: /users/register<br />
 [request body]
 ```json
 {
@@ -21,8 +21,8 @@ url: /users/register
 }
 ```
 
-POST:
-url: /users/login
+POST:<br />
+url: /users/login<br />
 [request body]
 ```json
 {
@@ -31,9 +31,9 @@ url: /users/login
 }
 ```
 
-PUT:
-url: /users/{userId}
-[request body]
+PUT:<br />
+url: /users/{userId}<br />
+[request body]<br />
 ```json
 {
     "Username": "brokinsupdated",
@@ -41,14 +41,14 @@ url: /users/{userId}
 }
 ```
 
-DELETE:
-/users/{userId}
+DELETE:<br />
+/users/{userId}<br />
 
-PHOTO API:
+PHOTO API:<br />
 
-POST:
-url: /photos
-[request body]
+POST:<br />
+url: /photos<br />
+[request body]<br />
 ```json
 {
     "title": "Title",
@@ -57,9 +57,9 @@ url: /photos
 }
 ```
 
-PUT:
-url: /photos/{photoId}
-[request body]
+PUT:<br />
+url: /photos/{photoId}<br />
+[request body]<br />
 ```json
 {
     "title": "TitleUpdated",
@@ -68,17 +68,17 @@ url: /photos/{photoId}
 }
 ```
 
-GET:
-url: /photos
+GET:<br />
+url: /photos<br />
 
-DELETE:
-url: /photos/{photoId}
+DELETE:<br />
+url: /photos/{photoId}<br />
 
-SOCIAL MEDIA API:
+SOCIAL MEDIA API:<br />
 
-POST:
-url: /socialmedias
-[request body]
+POST:<br />
+url: /socialmedias<br />
+[request body]<br />
 ```json
 {
     "name": "twitter media",
@@ -86,9 +86,9 @@ url: /socialmedias
 }
 ```
 
-PUT:
-url: /socialmedias/{socialMediaId}
-[request body]
+PUT:<br />
+url: /socialmedias/{socialMediaId}<br />
+[request body]<br />
 ```json
 {
     "name": "twitter media",
@@ -96,17 +96,17 @@ url: /socialmedias/{socialMediaId}
 }
 ```
 
-GET:
-url: /socialmedias
+GET:<br />
+url: /socialmedias<br />
 
-DELETE:
-url: /socialmedias/{socialMediaId}
+DELETE:<br />
+url: /socialmedias/{socialMediaId}<br />
 
-COMMENT API:
+COMMENT API:<br />
 
-POST:
-url: /comments
-[request body]
+POST:<br />
+url: /comments<br />
+[request body]<br />
 ```json
 {
     "message": "Keren bro",
@@ -114,9 +114,9 @@ url: /comments
 }
 ```
 
-PUT:
-url: /comments/{commentId}
-[request body]
+PUT:<br />
+url: /comments/{commentId}<br />
+[request body]<br />
 ```json
 {
     "message": "Keren banget bro",
@@ -124,8 +124,8 @@ url: /comments/{commentId}
 }
 ```
 
-GET:
-url: /comments
+GET:<br />
+url: /comments<br />
 
-DELETE:
-url: /comments/{commentId}
+DELETE:<br />
+url: /comments/{commentId}<br />
